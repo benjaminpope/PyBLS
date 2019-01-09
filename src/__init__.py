@@ -1,3 +1,3 @@
-from bls import BLS
+from .bls import BLS
 
 __all__ = ['BLS']

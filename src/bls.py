@@ -4,7 +4,7 @@ from time import time
 import numpy as np
 import matplotlib.pyplot as pl
 
-from blsf import bls
+from pybls.blsf import bls
 
 def fold(time, period, origo=0.0, shift=0.0):
     return ((time - origo)/period + shift) % 1.
